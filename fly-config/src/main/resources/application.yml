@@ -1,0 +1,21 @@
+server:
+  port: 8770
+spring:
+  application:
+    name: fly-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Myloveisyou1/fly-modules-public
+          username: 1193418905@qq.com
+          password: wan20160609
+          basedir: F:\project\basedir
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
