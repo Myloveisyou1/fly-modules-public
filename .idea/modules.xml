@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/fly-config/fly-config.iml" filepath="$PROJECT_DIR$/fly-config/fly-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fly-gateway/fly-gateway.iml" filepath="$PROJECT_DIR$/fly-gateway/fly-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/fly-gateway/fly-gateway.iml" filepath="$PROJECT_DIR$/fly-gateway/fly-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/fly-modules/fly-modules.iml" filepath="$PROJECT_DIR$/fly-modules/fly-modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fly-modules/fly-modules-order/fly-modules-order.iml" filepath="$PROJECT_DIR$/fly-modules/fly-modules-order/fly-modules-order.iml" />
       <module fileurl="file://$PROJECT_DIR$/fly-modules-public.iml" filepath="$PROJECT_DIR$/fly-modules-public.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fly-registry/fly-registry.iml" filepath="$PROJECT_DIR$/fly-registry/fly-registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/fly-registry/fly-registry.iml" filepath="$PROJECT_DIR$/fly-registry/fly-registry.iml" />
     </modules>
   </component>
