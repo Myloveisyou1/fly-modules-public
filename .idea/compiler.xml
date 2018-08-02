@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="fly-config" />
         <module name="fly-gateway" />
+        <module name="fly-modules-order" />
         <module name="fly-registry" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="fly-config" target="1.8" />
       <module name="fly-gateway" target="1.8" />
       <module name="fly-modules" target="1.8" />
+      <module name="fly-modules-order" target="1.8" />
       <module name="fly-modules-public" target="1.8" />
       <module name="fly-modules-registry" target="1.8" />
       <module name="fly-registry" target="1.8" />

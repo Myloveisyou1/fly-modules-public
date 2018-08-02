@@ -6,6 +6,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/fly-registry/pom.xml" />
         <option value="$PROJECT_DIR$/fly-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/fly-config/pom.xml" />
+        <option value="$PROJECT_DIR$/fly-modules/fly-modules-order/pom.xml" />
       </list>
     </option>
   </component>

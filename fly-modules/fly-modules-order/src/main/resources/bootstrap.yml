@@ -1,8 +1,12 @@
-server:
-  port: 8888
+
 spring:
   application:
-    name: fly-gateway
+    name: fly-order
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:8770/
 eureka:
   client:
     service-url:
@@ -11,3 +15,5 @@ eureka:
     hostname: localhost
     prefer-ip-address: true
     instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+server:
+  port: 8771

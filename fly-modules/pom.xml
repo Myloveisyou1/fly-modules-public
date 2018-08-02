@@ -12,4 +12,8 @@
     <artifactId>fly-modules</artifactId>
     <packaging>pom</packaging>
 
+    <modules>
+        <module>fly-modules-order</module>
+    </modules>
+
 </project>
